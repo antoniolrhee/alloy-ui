@@ -20,6 +20,7 @@
             "model-list",
             "widget-stdmod",
             "color-hsl",
+            "aui-scheduler",
             "aui-event-base",
             "aui-node-base",
             "aui-component",
@@ -73,6 +74,7 @@
 
     "aui-scheduler-view-month": {
         "requires": [
+            "aui-aria",
             "aui-scheduler-view-table"
         ],
         "skinnable": true
@@ -90,6 +92,7 @@
     "aui-scheduler-view-table": {
         "requires": [
             "overlay",
+            "aui-aria",
             "aui-scheduler-base"
         ],
         "skinnable": true
